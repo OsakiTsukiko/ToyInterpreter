@@ -21,6 +21,7 @@ import osaki.mylang.model.adts.MyDictionary;
 import osaki.mylang.model.adts.MyHeap;
 import osaki.mylang.model.adts.MyList;
 import osaki.mylang.model.adts.MyStack;
+import osaki.mylang.model.exceptions.MyException;
 import osaki.mylang.model.stmt.IStmt;
 import osaki.mylang.model.values.IValue;
 import osaki.mylang.model.values.StringValue;
@@ -47,6 +48,20 @@ public class ProgramRunner {
                         "ui_log.txt"
                 )
         );
+
+        boolean has_type_err = false;
+
+        try {
+            cont.typeCheck();
+        } catch (MyException e) {
+            has_type_err = true;
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("OUUPS!");
+            alert.setHeaderText("Program contains type errors!!");
+            alert.setContentText(e.getMessage());
+
+            alert.showAndWait();
+        }
 
         VBox root = new VBox();
 
@@ -78,6 +93,15 @@ public class ProgramRunner {
         container.add(new VBox(new Text("Exe Stack"), exeStack), 2, 1);
 
         Runnable update = () -> {
+            if (cont.removeCompletedPrg(cont.repo.getPrgList()).isEmpty()) {
+                if (cont.repo.getPrgList().isEmpty()) {
+                    System.out.println("HELLOOOO!!!");
+                    ObservableList<Integer> observableList_pl = FXCollections.observableArrayList(List.of());
+                    prgStateList.setItems(observableList_pl);
+                    return;
+                }
+            }
+
             nrOfPrograms.textProperty().set("Nr Of Programs: " + Integer.toString(cont.getPrgCount()));
 
             {
@@ -206,6 +230,8 @@ public class ProgramRunner {
         run.setOnAction(event -> {
             List<PrgState> prgList=cont.removeCompletedPrg(cont.repo.getPrgList());
             if (prgList.isEmpty()) {
+                cont.repo.setPrgList(prgList);
+                update.run();
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("OUUPS!");
                 alert.setHeaderText("Empty Exe Stack");
@@ -234,13 +260,14 @@ public class ProgramRunner {
 
         root.getChildren().addAll(nrOfPrograms, selectedPrg, container, run);
 
-        Scene scene = new Scene(root, 400, 720);
+        if (!has_type_err) {
+            Scene scene = new Scene(root, 400, 720);
+            stage.setTitle("MyLang - Run Program");
+            stage.setScene(scene);
+            stage.setMaximized(true);
+            stage.show();
 
-        stage.setTitle("MyLang - Run Program");
-        stage.setScene(scene);
-        stage.setMaximized(true);
-        stage.show();
-
-        update.run();
+            update.run();
+        }
     }
 }

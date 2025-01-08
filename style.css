@@ -1,0 +1,73 @@
+/* General styles for VBox */
+.vbox {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-background-color: #f4f4f4;
+}
+
+/* Style for GridPane */
+.grid-pane {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+    -fx-hgap: 8;
+    -fx-vgap: 10;
+}
+
+/* Styles for TextField */
+.text-field {
+    -fx-font-size: 14;
+    -fx-padding: 5 10;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 3;
+}
+
+/* Style for Button */
+.button {
+    -fx-font-size: 14;
+    -fx-padding: 8 20;
+    -fx-background-color: #0078d7;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 3;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #005a9e;
+}
+
+/* TableView styles */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+}
+
+.table-column-header {
+    -fx-background-color: #e0e0e0;
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+}
+
+/* ListView styles */
+.list-view {
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 3;
+    -fx-padding: 5;
+}
+
+/* Styles for Text elements */
+.text {
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-fill: #333333;
+}
+
+/* Style for the root element */
+.root {
+    -fx-background-color: #eaeaea;
+}
