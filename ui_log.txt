@@ -1,0 +1,14222 @@
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) myVar ; ( new(myVar, 20) ; ( print(heapRead(myVar)) ; ( heapWrite(myVar, 25) ; print(heapRead(myVar)) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) myVar
+( new(myVar, 20) ; ( print(heapRead(myVar)) ; ( heapWrite(myVar, 25) ; print(heapRead(myVar)) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) myVar
+( new(myVar, 20) ; ( print(heapRead(myVar)) ; ( heapWrite(myVar, 25) ; print(heapRead(myVar)) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(myVar, 20) ; ( print(heapRead(myVar)) ; ( heapWrite(myVar, 25) ; print(heapRead(myVar)) ) ) )
+
+SymTable:
+myVar --> (0: int)
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(myVar, 20) ; ( print(heapRead(myVar)) ; ( heapWrite(myVar, 25) ; print(heapRead(myVar)) ) ) )
+
+SymTable:
+myVar --> (0: int)
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(myVar, 20)
+( print(heapRead(myVar)) ; ( heapWrite(myVar, 25) ; print(heapRead(myVar)) ) )
+
+SymTable:
+myVar --> (0: int)
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(myVar, 20)
+( print(heapRead(myVar)) ; ( heapWrite(myVar, 25) ; print(heapRead(myVar)) ) )
+
+SymTable:
+myVar --> (0: int)
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(heapRead(myVar)) ; ( heapWrite(myVar, 25) ; print(heapRead(myVar)) ) )
+
+SymTable:
+myVar --> (1: int)
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(heapRead(myVar)) ; ( heapWrite(myVar, 25) ; print(heapRead(myVar)) ) )
+
+SymTable:
+myVar --> (1: int)
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(myVar))
+( heapWrite(myVar, 25) ; print(heapRead(myVar)) )
+
+SymTable:
+myVar --> (1: int)
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(myVar))
+( heapWrite(myVar, 25) ; print(heapRead(myVar)) )
+
+SymTable:
+myVar --> (1: int)
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( heapWrite(myVar, 25) ; print(heapRead(myVar)) )
+
+SymTable:
+myVar --> (1: int)
+
+Out:
+20
+
+FileTable:
+
+Heap:
+1 : 20
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( heapWrite(myVar, 25) ; print(heapRead(myVar)) )
+
+SymTable:
+myVar --> (1: int)
+
+Out:
+20
+
+FileTable:
+
+Heap:
+1 : 20
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+heapWrite(myVar, 25)
+print(heapRead(myVar))
+
+SymTable:
+myVar --> (1: int)
+
+Out:
+20
+
+FileTable:
+
+Heap:
+1 : 20
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+heapWrite(myVar, 25)
+print(heapRead(myVar))
+
+SymTable:
+myVar --> (1: int)
+
+Out:
+20
+
+FileTable:
+
+Heap:
+1 : 20
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(myVar))
+
+SymTable:
+myVar --> (1: int)
+
+Out:
+20
+
+FileTable:
+
+Heap:
+1 : 25
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(myVar))
+
+SymTable:
+myVar --> (1: int)
+
+Out:
+20
+
+FileTable:
+
+Heap:
+1 : 25
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+myVar --> (1: int)
+
+Out:
+20
+25
+
+FileTable:
+
+Heap:
+1 : 25
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) myVar ; ( new(myVar, 20) ; ( Ref(Ref(int)) my2ndVar ; ( new(my2ndVar, myVar) ; ( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) myVar
+( new(myVar, 20) ; ( Ref(Ref(int)) my2ndVar ; ( new(my2ndVar, myVar) ; ( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) myVar
+( new(myVar, 20) ; ( Ref(Ref(int)) my2ndVar ; ( new(my2ndVar, myVar) ; ( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(myVar, 20) ; ( Ref(Ref(int)) my2ndVar ; ( new(my2ndVar, myVar) ; ( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) ) ) ) )
+
+SymTable:
+myVar --> (0: int)
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(myVar, 20) ; ( Ref(Ref(int)) my2ndVar ; ( new(my2ndVar, myVar) ; ( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) ) ) ) )
+
+SymTable:
+myVar --> (0: int)
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(myVar, 20)
+( Ref(Ref(int)) my2ndVar ; ( new(my2ndVar, myVar) ; ( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) ) ) )
+
+SymTable:
+myVar --> (0: int)
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(myVar, 20)
+( Ref(Ref(int)) my2ndVar ; ( new(my2ndVar, myVar) ; ( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) ) ) )
+
+SymTable:
+myVar --> (0: int)
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(Ref(int)) my2ndVar ; ( new(my2ndVar, myVar) ; ( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) ) ) )
+
+SymTable:
+myVar --> (1: int)
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(Ref(int)) my2ndVar ; ( new(my2ndVar, myVar) ; ( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) ) ) )
+
+SymTable:
+myVar --> (1: int)
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(Ref(int)) my2ndVar
+( new(my2ndVar, myVar) ; ( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) ) )
+
+SymTable:
+myVar --> (1: int)
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(Ref(int)) my2ndVar
+( new(my2ndVar, myVar) ; ( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) ) )
+
+SymTable:
+myVar --> (1: int)
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(my2ndVar, myVar) ; ( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) ) )
+
+SymTable:
+myVar --> (1: int)
+my2ndVar --> (0: Ref(int))
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(my2ndVar, myVar) ; ( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) ) )
+
+SymTable:
+myVar --> (1: int)
+my2ndVar --> (0: Ref(int))
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(my2ndVar, myVar)
+( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) )
+
+SymTable:
+myVar --> (1: int)
+my2ndVar --> (0: Ref(int))
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(my2ndVar, myVar)
+( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) )
+
+SymTable:
+myVar --> (1: int)
+my2ndVar --> (0: Ref(int))
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) )
+
+SymTable:
+myVar --> (1: int)
+my2ndVar --> (2: Ref(int))
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+2 : (1: int)
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(myVar, 30) ; print(heapRead(heapRead(my2ndVar))) )
+
+SymTable:
+myVar --> (1: int)
+my2ndVar --> (2: Ref(int))
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+2 : (1: int)
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(myVar, 30)
+print(heapRead(heapRead(my2ndVar)))
+
+SymTable:
+myVar --> (1: int)
+my2ndVar --> (2: Ref(int))
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+2 : (1: int)
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(myVar, 30)
+print(heapRead(heapRead(my2ndVar)))
+
+SymTable:
+myVar --> (1: int)
+my2ndVar --> (2: Ref(int))
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+2 : (1: int)
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(heapRead(my2ndVar)))
+
+SymTable:
+myVar --> (3: int)
+my2ndVar --> (2: Ref(int))
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+2 : (1: int)
+3 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(heapRead(my2ndVar)))
+
+SymTable:
+myVar --> (3: int)
+my2ndVar --> (2: Ref(int))
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 20
+2 : (1: int)
+3 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+myVar --> (3: int)
+my2ndVar --> (2: Ref(int))
+
+Out:
+20
+
+FileTable:
+
+Heap:
+1 : 20
+2 : (1: int)
+3 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( v = 4 ; while(v > 0) {( print(v) ; v = v - 1 )} ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( v = 4 ; while(v > 0) {( print(v) ; v = v - 1 )} )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( v = 4 ; while(v > 0) {( print(v) ; v = v - 1 )} )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 4 ; while(v > 0) {( print(v) ; v = v - 1 )} )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 4 ; while(v > 0) {( print(v) ; v = v - 1 )} )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 4
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 4
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 4
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 4
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; v = v - 1 )
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 4
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; v = v - 1 )
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 4
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+v = v - 1
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 4
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+v = v - 1
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 4
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = v - 1
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 4
+
+Out:
+4
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = v - 1
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 4
+
+Out:
+4
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 3
+
+Out:
+4
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 3
+
+Out:
+4
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; v = v - 1 )
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 3
+
+Out:
+4
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; v = v - 1 )
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 3
+
+Out:
+4
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+v = v - 1
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 3
+
+Out:
+4
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+v = v - 1
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 3
+
+Out:
+4
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = v - 1
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 3
+
+Out:
+4
+3
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = v - 1
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 3
+
+Out:
+4
+3
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 2
+
+Out:
+4
+3
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 2
+
+Out:
+4
+3
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; v = v - 1 )
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 2
+
+Out:
+4
+3
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; v = v - 1 )
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 2
+
+Out:
+4
+3
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+v = v - 1
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 2
+
+Out:
+4
+3
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+v = v - 1
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 2
+
+Out:
+4
+3
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = v - 1
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 2
+
+Out:
+4
+3
+2
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = v - 1
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 2
+
+Out:
+4
+3
+2
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 1
+
+Out:
+4
+3
+2
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 1
+
+Out:
+4
+3
+2
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; v = v - 1 )
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 1
+
+Out:
+4
+3
+2
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; v = v - 1 )
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 1
+
+Out:
+4
+3
+2
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+v = v - 1
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 1
+
+Out:
+4
+3
+2
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+v = v - 1
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 1
+
+Out:
+4
+3
+2
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = v - 1
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 1
+
+Out:
+4
+3
+2
+1
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = v - 1
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 1
+
+Out:
+4
+3
+2
+1
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 0
+
+Out:
+4
+3
+2
+1
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+while(v > 0) {( print(v) ; v = v - 1 )}
+
+SymTable:
+v --> 0
+
+Out:
+4
+3
+2
+1
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+v --> 0
+
+Out:
+4
+3
+2
+1
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string varf ; ( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string varf
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string varf
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+varf = test.in
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+varf = test.in
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+open(varf)
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string varf ; ( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string varf
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string varf
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+varf = test.in
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+varf = test.in
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+open(varf)
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+open(varf)
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int varc
+( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int varc
+( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+read(varf -> varc)
+( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+read(varf -> varc)
+( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(varc)
+( read(varf -> varc) ; ( print(varc) ; close(varf) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(varc)
+( read(varf -> varc) ; ( print(varc) ; close(varf) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( read(varf -> varc) ; ( print(varc) ; close(varf) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( read(varf -> varc) ; ( print(varc) ; close(varf) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+read(varf -> varc)
+( print(varc) ; close(varf) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+read(varf -> varc)
+( print(varc) ; close(varf) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(varc) ; close(varf) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(varc) ; close(varf) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(varc)
+close(varf)
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(varc)
+close(varf)
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+close(varf)
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+0
+0
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+close(varf)
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+0
+0
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+0
+0
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string varf ; ( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string varf
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string varf
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+varf = test.in
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+varf = test.in
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+open(varf)
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+open(varf)
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int varc
+( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int varc
+( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+read(varf -> varc)
+( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+read(varf -> varc)
+( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(varc)
+( read(varf -> varc) ; ( print(varc) ; close(varf) ) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(varc)
+( read(varf -> varc) ; ( print(varc) ; close(varf) ) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( read(varf -> varc) ; ( print(varc) ; close(varf) ) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+1
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( read(varf -> varc) ; ( print(varc) ; close(varf) ) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+1
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+read(varf -> varc)
+( print(varc) ; close(varf) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+1
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+read(varf -> varc)
+( print(varc) ; close(varf) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+1
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(varc) ; close(varf) )
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+Out:
+1
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(varc) ; close(varf) )
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+Out:
+1
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(varc)
+close(varf)
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+Out:
+1
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(varc)
+close(varf)
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+Out:
+1
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+close(varf)
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+Out:
+1
+2
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+close(varf)
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+Out:
+1
+2
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+Out:
+1
+2
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string varf ; ( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string varf
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string varf
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+varf = test.in
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+varf = test.in
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+open(varf)
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+open(varf)
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int varc
+( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int varc
+( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+read(varf -> varc)
+( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+read(varf -> varc)
+( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+v = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+v = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+32
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+32
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+32
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+v = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+v = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+32
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+32
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+32
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+v = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+v = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( v = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+v = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( v = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( v = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+v = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+v = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 10
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 32
+
+Out:
+10
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( int a ; a = 5 ) ) ; ( string b ; b = HELLO ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( int a ; a = 5 ) )
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( int a ; a = 5 ) )
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( int a ; a = 5 )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( int a ; a = 5 )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string b
+b = HELLO
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+int a
+a = 5
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string b
+b = HELLO
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+int a
+a = 5
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+b = HELLO
+
+SymTable:
+b --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 5
+
+SymTable:
+a --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+b = HELLO
+
+SymTable:
+b --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 5
+
+SymTable:
+a --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+b --> HELLO
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+
+SymTable:
+a --> 5
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( int a ; a = 5 ) ) ; ( string b ; b = HELLO ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( int a ; a = 5 ) )
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( int a ; a = 5 ) )
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( int a ; a = 5 )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( int a ; a = 5 )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string b
+b = HELLO
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+int a
+a = 5
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string b
+b = HELLO
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+int a
+a = 5
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+b = HELLO
+
+SymTable:
+b --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 5
+
+SymTable:
+a --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+b = HELLO
+
+SymTable:
+b --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 5
+
+SymTable:
+a --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+b --> HELLO
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+
+SymTable:
+a --> 5
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( int a ; a = 5 ) ) ; ( string b ; b = HELLO ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( int a ; a = 5 ) )
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( int a ; a = 5 ) )
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( int a ; a = 5 )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( int a ; a = 5 ) ) ; ( string b ; b = HELLO ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( int a ; a = 5 ) )
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( int a ; a = 5 ) )
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( int a ; a = 5 )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( int a ; a = 5 )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string b
+b = HELLO
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+int a
+a = 5
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string b
+b = HELLO
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+int a
+a = 5
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+b = HELLO
+
+SymTable:
+b --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 5
+
+SymTable:
+a --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+b = HELLO
+
+SymTable:
+b --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 5
+
+SymTable:
+a --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+b --> HELLO
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+
+SymTable:
+a --> 5
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( int a ; a = 5 ) ) ; ( string b ; b = HELLO ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( int a ; a = 5 ) )
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( int a ; a = 5 ) )
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( int a ; a = 5 )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( int a ; a = 5 )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string b
+b = HELLO
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+int a
+a = 5
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string b
+b = HELLO
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+int a
+a = 5
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+b = HELLO
+
+SymTable:
+b --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 5
+
+SymTable:
+a --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+b = HELLO
+
+SymTable:
+b --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 5
+
+SymTable:
+a --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+b --> HELLO
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+
+SymTable:
+a --> 5
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( int a ; a = 5 ) ) ; ( string b ; b = HELLO ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( int a ; a = 5 ) )
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( int a ; a = 5 ) )
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( int a ; a = 5 )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( int a ; a = 5 )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string b
+b = HELLO
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+int a
+a = 5
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string b
+b = HELLO
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+int a
+a = 5
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+b = HELLO
+
+SymTable:
+b --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 5
+
+SymTable:
+a --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+b = HELLO
+
+SymTable:
+b --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 5
+
+SymTable:
+a --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+b --> HELLO
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+
+SymTable:
+a --> 5
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 32
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+0
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+0
+30
+0
+30
+
+FileTable:
+
+Heap:
+1 : 30
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+new(a, 22)
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) )
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(v) ; print(heapRead(a)) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(v)
+print(heapRead(a))
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+heapWrite(a, 30)
+( a = 32 ; ( print(v) ; print(heapRead(a)) ) )
+
+SymTable:
+a --> (1: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+1 : 22
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int v ; ( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int v
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( Ref(int) a ; ( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+Ref(int) a
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( a = 10 ; ( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+a = 10
+( new(a, 22) ; ( fork( ( heapWrite(a, 30) ; ( a = 32 ; ( print(v) ; print(heapRead(a)) ) ) ) ) ; ( print(v) ; print(heapRead(a)) ) ) )
+
+SymTable:
+a --> (0: int)
+v --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( int a ; a = 5 ) ) ; ( string b ; b = HELLO ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( int a ; a = 5 ) )
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( int a ; a = 5 ) )
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( int a ; a = 5 )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( int a ; a = 5 )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string b
+b = HELLO
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+int a
+a = 5
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string b
+b = HELLO
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+int a
+a = 5
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+b = HELLO
+
+SymTable:
+b --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 5
+
+SymTable:
+a --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+b = HELLO
+
+SymTable:
+b --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 5
+
+SymTable:
+a --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+b --> HELLO
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+
+SymTable:
+a --> 5
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( fork( ( int a ; a = 5 ) ) ; ( string b ; b = HELLO ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( int a ; a = 5 ) )
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+fork( ( int a ; a = 5 ) )
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( int a ; a = 5 )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string b ; b = HELLO )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+( int a ; a = 5 )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string b
+b = HELLO
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+int a
+a = 5
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string b
+b = HELLO
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+int a
+a = 5
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+b = HELLO
+
+SymTable:
+b --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 5
+
+SymTable:
+a --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+b = HELLO
+
+SymTable:
+b --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+a = 5
+
+SymTable:
+a --> 0
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+b --> HELLO
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 2 -----
+ExeStack:
+
+SymTable:
+a --> 5
+
+Out:
+
+FileTable:
+
+Heap:
+
