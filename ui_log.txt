@@ -19515,3 +19515,512 @@ FileTable:
 
 Heap:
 
+----- THREAD WITH ID 1 -----
+ExeStack:
+( string varf ; ( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string varf
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+string varf
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( varf = test.in ; ( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+varf = test.in
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+varf = test.in
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> 
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( open(varf) ; ( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+open(varf)
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+open(varf)
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( int varc ; ( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int varc
+( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+int varc
+( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) )
+
+SymTable:
+varf --> test.in
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( read(varf -> varc) ; ( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+read(varf -> varc)
+( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+read(varf -> varc)
+( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(varc) ; ( read(varf -> varc) ; ( print(varc) ; close(varf) ) ) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(varc)
+( read(varf -> varc) ; ( print(varc) ; close(varf) ) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(varc)
+( read(varf -> varc) ; ( print(varc) ; close(varf) ) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( read(varf -> varc) ; ( print(varc) ; close(varf) ) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+1
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( read(varf -> varc) ; ( print(varc) ; close(varf) ) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+1
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+read(varf -> varc)
+( print(varc) ; close(varf) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+1
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+read(varf -> varc)
+( print(varc) ; close(varf) )
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+Out:
+1
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(varc) ; close(varf) )
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+Out:
+1
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+( print(varc) ; close(varf) )
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+Out:
+1
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(varc)
+close(varf)
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+Out:
+1
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+print(varc)
+close(varf)
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+Out:
+1
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+close(varf)
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+Out:
+1
+2
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+close(varf)
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+Out:
+1
+2
+
+FileTable:
+test.in
+
+Heap:
+
+----- THREAD WITH ID 1 -----
+ExeStack:
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+Out:
+1
+2
+
+FileTable:
+
+Heap:
+
